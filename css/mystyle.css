@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    padding: 30px 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#nav ul {
+   display: flex;
+   justify-content: flex-start;
+}
+
+ul li a {
+    color: #8ebb06;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#nav ul li a:hover{
+    text-decoration: underline;
+    color: #006419;
+}
+
+.english{
+    color: #8ebb06;
+    margin-left: 400px;
+    font-size: 18px;
+}
+
+.english:hover {
+    text-decoration: underline;
+    color: #006419;
+}
+
+.registration {
+    color: #8ebb06;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.registration:hover{
+    text-decoration: underline;
+    color: #006419;
+}
+
+.acs {
+    font-size: 50px;
+    margin-left: 540px;
+    color: #dff279;
+}
+
+.sliderissurati {
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider {
+    height: 500px;
+}
+
+.fa-bag-shopping{
+    color: #8ebb06;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.fa-bag-shopping:hover{
+    color: #006419;
+}
+
+input {
+    border-color: #5b7207;
+    border-radius: 5px;
+    border-top: #5b7207;
+    border-left: #5b7207;
+    border-right: #5b7207;
+}
+
+#submit {
+    color: #dff279;
+    background-color: #1d5a01;
+}
+
+label{
+    color: #1d5a01;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #dff279;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+h2{
+    margin-left: 10px;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    color: #006419;
+}
+
+
+.about p {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    color: #1d5a01;
+    text-align: center;
+    
+}
+
+.ricxvebi{
+    font-size: 100px;
+    margin-left: 430px;
+    color: #dff279;
+    margin-top: 50px;
+}
+
+#img1 #img2 #img3 {
+    width: 100%;
+}
+
+.ruka{
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.open-button {
+    background-color: #dff279;
+    color: #1d5a01;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 150px;
+}
+  
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #d5e997;
+    z-index: 9;
+}
+  
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #dff279;
+}
+  
+/* Full-width textarea */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+  
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+/* Set a style for the submit/send button */
+.form-container .btn {
+    background-color: #1d5a01;
+    color: #d5e997;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: rgb(119, 4, 4);
+}
+  
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+h1 {
+    color: #113103;
+}
+
+.saboloo {
+    font-size: 12px;
+    margin: 20px 30px;  
+
+}
+
+.fa-facebook-square {
+    font-size: 50px;
+    margin: 30px 30px;
+    color: #193dac;
+}
+
+.fa-instagram-square {
+    font-size: 50px;
+    margin-top: 30px;
+    color: #b338b3;
+}
+
+.logoebi{
+    display: inline;
+}
+
+
+.aboutus1 {
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+
+h3 {
+    font-size: 40px;
+    margin-left: 450px;
+    margin-top: 30px;
+    color: #8ebb06;
+}
+
+.collection {
+    margin-bottom: 40px;
+}
+
+.box {
+     display: flex;
+     width: 100%;
+}
+
+article {
+    width: 25%;
+    margin-left: 80px;
+    margin-top: 30px; 
+}
+
+article .picture {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 3px solid #1d5a01;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    font-size: 20px;
+    color: #8ebb06;
+}
+
+.text:hover {
+    color: #1d5a01;
+    text-decoration: underline;
+}
+
+.desire {
+    font-size: 40px;
+    margin-left: 470px;
+    margin-top: 30px;
+    color: #a7741c;
+}
+
+.burningdesirecollection{
+    margin-bottom: 40px;
+}
+
+.box1 {
+    display: flex;
+    width: 100%;
+}
+
+.burningpicture{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 3px solid #a7741c;
+}
+
+.text1 {
+    font-size: 25px;
+    color: #daa54a;
+}
+
+.creating {
+    font-size: 50px;
+    text-align: center;
+}
+
+h4{
+    color: #daa54a;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.newsebi {
+    width: 40%;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    font-size: 30px;
+    color: #113103;
+}
+
+
+.price {
+    font-size: 18px;
+    color: #8ebb06;
+}
